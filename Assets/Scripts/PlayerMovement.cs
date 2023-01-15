@@ -14,7 +14,8 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
     public float currentSpeed;
     public bool isWalking = false;
-    
+    [FormerlySerializedAs("YVel")] public float yVel;
+
     public PlayerManager pm;
 
     public InputAction playerMovement;
@@ -203,9 +204,13 @@ public class PlayerMovement : MonoBehaviour
 
         currentSpeed = _rb.velocity.x;
         isWalking = Mathf.Abs(_moveInput.x) > 0.01f;
+        yVel = _rb.velocity.y;
         
         animator.SetFloat("Speed", Mathf.Abs(currentSpeed));
+        animator.SetFloat("YVel", yVel);
         animator.SetBool("isWalking", isWalking);
+        animator.SetBool("isGrounded", _isGrounded);
+        
 
         #endregion
     }
