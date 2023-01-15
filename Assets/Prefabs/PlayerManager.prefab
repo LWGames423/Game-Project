@@ -127,6 +127,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37dd8ac57a08e1e4e84bdb04b2ea7f8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  currentSpeed: 0
+  isWalking: 0
   pm: {fileID: 4672979404926283168}
   playerMovement:
     m_Name: Player Movement
@@ -445,6 +448,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37dd8ac57a08e1e4e84bdb04b2ea7f8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  currentSpeed: 0
+  isWalking: 0
   pm: {fileID: 4672979404926283168}
   playerMovement:
     m_Name: Player Movement
