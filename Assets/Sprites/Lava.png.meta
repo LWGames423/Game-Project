@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 73
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,10 +120,10 @@ TextureImporter:
       name: Lava_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 95
-        width: 72
-        height: 98
+        x: 8
+        y: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +141,10 @@ TextureImporter:
       name: Lava_1
       rect:
         serializedVersion: 2
-        x: 173
-        y: 95
-        width: 74
-        height: 95
+        x: 58
+        y: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: Lava_2
       rect:
         serializedVersion: 2
-        x: 323
-        y: 95
-        width: 74
-        height: 95
+        x: 109
+        y: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +183,10 @@ TextureImporter:
       name: Lava_3
       rect:
         serializedVersion: 2
-        x: 474
-        y: 95
-        width: 73
-        height: 95
+        x: 158
+        y: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: Lava_4
       rect:
         serializedVersion: 2
-        x: 623
-        y: 95
-        width: 73
-        height: 95
+        x: 208
+        y: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: Lava_5
       rect:
         serializedVersion: 2
-        x: 773
-        y: 95
-        width: 74
-        height: 98
+        x: 258
+        y: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +246,10 @@ TextureImporter:
       name: Lava_6
       rect:
         serializedVersion: 2
-        x: 923
-        y: 95
-        width: 74
-        height: 98
+        x: 308
+        y: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,10 +267,10 @@ TextureImporter:
       name: Lava_7
       rect:
         serializedVersion: 2
-        x: 1074
-        y: 95
-        width: 72
-        height: 98
+        x: 358
+        y: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,10 +288,10 @@ TextureImporter:
       name: Lava_8
       rect:
         serializedVersion: 2
-        x: 1223
-        y: 95
-        width: 74
-        height: 98
+        x: 408
+        y: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +309,10 @@ TextureImporter:
       name: Lava_9
       rect:
         serializedVersion: 2
-        x: 1373
-        y: 95
-        width: 74
-        height: 98
+        x: 458
+        y: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,10 +330,10 @@ TextureImporter:
       name: Lava_10
       rect:
         serializedVersion: 2
-        x: 1524
-        y: 95
-        width: 73
-        height: 98
+        x: 508
+        y: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,10 +351,10 @@ TextureImporter:
       name: Lava_11
       rect:
         serializedVersion: 2
-        x: 1673
-        y: 95
-        width: 73
-        height: 95
+        x: 558
+        y: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,10 +372,10 @@ TextureImporter:
       name: Lava_12
       rect:
         serializedVersion: 2
-        x: 1823
-        y: 95
-        width: 74
-        height: 91
+        x: 608
+        y: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,10 +393,10 @@ TextureImporter:
       name: Lava_13
       rect:
         serializedVersion: 2
-        x: 1973
-        y: 95
-        width: 74
-        height: 91
+        x: 658
+        y: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,10 +414,10 @@ TextureImporter:
       name: Lava_14
       rect:
         serializedVersion: 2
-        x: 24
-        y: 20
-        width: 72
-        height: 73
+        x: 8
+        y: 7
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -435,10 +435,10 @@ TextureImporter:
       name: Lava_15
       rect:
         serializedVersion: 2
-        x: 173
-        y: 20
-        width: 74
-        height: 73
+        x: 58
+        y: 7
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,10 +456,10 @@ TextureImporter:
       name: Lava_16
       rect:
         serializedVersion: 2
-        x: 323
-        y: 20
-        width: 74
-        height: 73
+        x: 108
+        y: 7
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -477,10 +477,10 @@ TextureImporter:
       name: Lava_17
       rect:
         serializedVersion: 2
-        x: 474
-        y: 20
-        width: 73
-        height: 73
+        x: 158
+        y: 7
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -498,10 +498,10 @@ TextureImporter:
       name: Lava_18
       rect:
         serializedVersion: 2
-        x: 622
-        y: 20
-        width: 73
-        height: 73
+        x: 208
+        y: 7
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,10 +519,10 @@ TextureImporter:
       name: Lava_19
       rect:
         serializedVersion: 2
-        x: 773
-        y: 20
-        width: 74
-        height: 73
+        x: 258
+        y: 7
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -540,10 +540,10 @@ TextureImporter:
       name: Lava_20
       rect:
         serializedVersion: 2
-        x: 923
-        y: 20
-        width: 74
-        height: 73
+        x: 308
+        y: 7
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -558,139 +558,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lava_21
-      rect:
-        serializedVersion: 2
-        x: 1074
-        y: 20
-        width: 72
-        height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e5e543451c5a2745b6d37ab37a927b7
-      internalID: 13679150
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lava_22
-      rect:
-        serializedVersion: 2
-        x: 1223
-        y: 20
-        width: 74
-        height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b6d419f1d88d274587f5d7448c46200
-      internalID: 1527115276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lava_23
-      rect:
-        serializedVersion: 2
-        x: 1373
-        y: 20
-        width: 74
-        height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94dfc267cad34e14d865deffbe2a5393
-      internalID: -1150505277
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lava_24
-      rect:
-        serializedVersion: 2
-        x: 1524
-        y: 20
-        width: 73
-        height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c625eb5bb441ea43b12720812422da3
-      internalID: -1876240718
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lava_25
-      rect:
-        serializedVersion: 2
-        x: 1673
-        y: 20
-        width: 73
-        height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed579802954a63343b4a399f81287168
-      internalID: -1327041736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lava_26
-      rect:
-        serializedVersion: 2
-        x: 1823
-        y: 20
-        width: 74
-        height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d8b87f4bbed82ab43b8a5048d40c0ded
-      internalID: 1006588696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Lava_27
       rect:
         serializedVersion: 2
-        x: 1973
-        y: 20
-        width: 74
-        height: 73
+        x: 658
+        y: 7
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -700,6 +574,132 @@ TextureImporter:
       bones: []
       spriteID: 86400473fba3f4f48afc297febedc049
       internalID: 27483001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_21
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 7
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f2115bf4742e94fb71ac4a77bdaa21
+      internalID: 13679150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_22
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 7
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc02b3e3565a0654bace807a2b9b3515
+      internalID: 1527115276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_23
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 7
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb9e5ba63a64ff41a82caf11bf91aa5
+      internalID: -1150505277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_24
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 7
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211aa07d9d0062f46a4f74c358425339
+      internalID: -1876240718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_25
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 7
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9fd3cd51c8dfa4c96f70feda42392d
+      internalID: -1327041736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_26
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 7
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f0ed9b6f989554196684c069f83b83
+      internalID: 1006588696
       vertices: []
       indices: 
       edges: []

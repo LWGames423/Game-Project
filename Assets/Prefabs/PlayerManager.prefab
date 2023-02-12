@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 4776269347920781350}
   m_Layer: 7
   m_Name: Blue
-  m_TagString: Untagged
+  m_TagString: BluePlayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -384,7 +384,7 @@ GameObject:
   - component: {fileID: 6070110434888366823}
   m_Layer: 6
   m_Name: Red
-  m_TagString: Untagged
+  m_TagString: RedPlayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

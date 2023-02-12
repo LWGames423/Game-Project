@@ -7,12 +7,17 @@ using UnityEngine.SceneManagement;
 public class Death : MonoBehaviour
 {
     public GameObject playerManager;
-
+    private bool _playerDead = false;
     private void FixedUpdate()
     {
         if (Input.GetKey(KeyCode.R))
         {
             Die();
+        }
+
+        if (_playerDead == true)
+        {
+            _playerDead = false;
         }
     }
 
@@ -24,5 +29,6 @@ public class Death : MonoBehaviour
     public void Die()
     {
         playerManager.BroadcastMessage("Death");
+        _playerDead = true;
     }
 }
