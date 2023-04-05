@@ -55,7 +55,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        // TODO: animations
         _rb = GetComponent<Rigidbody2D>();
         transform.position = playerSpawn.transform.position;
         _facingRight = true;
@@ -200,19 +199,19 @@ public class PlayerMovement : MonoBehaviour
         
         #endregion
 
-        #region AnimationComponents
-
-        currentSpeed = _rb.velocity.x;
-        isWalking = Mathf.Abs(_moveInput.x) > 0.01f;
-        yVel = _rb.velocity.y;
-        
-        animator.SetFloat("Speed", Mathf.Abs(currentSpeed));
-        animator.SetFloat("YVel", yVel);
-        animator.SetBool("isWalking", isWalking);
-        animator.SetBool("isGrounded", _isGrounded);
-        
-
-        #endregion
+        // #region AnimationComponents
+        //
+        // currentSpeed = _rb.velocity.x;
+        // isWalking = Mathf.Abs(_moveInput.x) > 0.01f;
+        // yVel = _rb.velocity.y;
+        //
+        // animator.SetFloat("Speed", Mathf.Abs(currentSpeed));
+        // animator.SetFloat("YVel", yVel);
+        // animator.SetBool("isWalking", isWalking);
+        // animator.SetBool("isGrounded", _isGrounded);
+        //
+        //
+        // #endregion
     }
 
     #region Flip
