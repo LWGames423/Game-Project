@@ -11,7 +11,7 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
 
-    public Animator animator;
+    // public Animator animator;
     public float currentSpeed;
     public bool isWalking = false;
     [FormerlySerializedAs("YVel")] public float yVel;
