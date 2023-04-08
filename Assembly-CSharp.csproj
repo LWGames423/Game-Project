@@ -48,10 +48,10 @@
      <Compile Include="Assets\Scripts\DoorManager.cs" />
      <Compile Include="Assets\Scripts\Interactables.cs" />
      <Compile Include="Assets\Scripts\UIControl.cs" />
+     <Compile Include="Assets\EndController.cs" />
      <Compile Include="Assets\Scripts\ControlController.cs" />
      <Compile Include="Assets\mainmenu.cs" />
      <Compile Include="Assets\Finish.cs" />
-     <Compile Include="Assets\EndController.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Scenes" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
