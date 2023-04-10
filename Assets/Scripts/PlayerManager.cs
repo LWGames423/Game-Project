@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,8 +7,10 @@ using UnityEngine.InputSystem;
 public class PlayerManager : MonoBehaviour
 {
     #region Variables
+
+    [Header("Movement")] 
+    public bool canMove = true;
     
-    [Header("Movement")]
     public float moveSpeed;
     
     public float acceleration;
@@ -38,4 +41,16 @@ public class PlayerManager : MonoBehaviour
     public float coyoteTime;
     
     #endregion
+
+    private Animator _anim;
+
+    private void Start()
+    {
+        _anim = GetComponent<Animator>();
+    }
+
+    private void End()
+    {
+        _anim.Play("PlayerEnd", 0, 0);
+    }
 }

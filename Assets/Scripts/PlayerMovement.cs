@@ -69,10 +69,20 @@ public class PlayerMovement : MonoBehaviour
         // _moveInput.y = Input.GetAxisRaw(yInput);
         // _dashInput.x = Input.GetAxisRaw(dashInput);
         // _dashInput.y = 0f;
+
+        if (pm.canMove)
+        {
+            _moveInput = playerMovement.ReadValue<Vector2>();
+            _dashInput.x = playerDash.ReadValue<float>();
+            _dashInput.y = 0f;
+        }
+        else
+        {
+            _moveInput = Vector2.zero;
+            _dashInput = Vector2.zero;
+        }
         
-        _moveInput = playerMovement.ReadValue<Vector2>();
-        _dashInput.x = playerDash.ReadValue<float>();
-        _dashInput.y = 0f;
+        
 
         #endregion
 
