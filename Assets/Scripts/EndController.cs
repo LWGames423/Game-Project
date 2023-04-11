@@ -6,19 +6,22 @@ using UnityEngine.SceneManagement;
 
 public class EndController : MonoBehaviour
 {    
-    private bool _redEnter = false;
-    private bool _blueEnter = false;
+    [SerializeField]private bool _redEnter = false;
+    [SerializeField]private bool _blueEnter = false;
 
     public float bufferTime = 1.0f;
     private float _bufferTimeTwo = 1.0f;
     private float _bufferTime;
+
+    public bool endBool = false;
     
     private Animator _anim;
+    public GameObject end;
 
     private void Start()
     {
+        _anim = end.GetComponent<Animator>();
         _bufferTime = bufferTime;
-        _anim = GetComponent<Animator>();
     }
 
     private void OnTriggerEnter2D(Collider2D col)
@@ -32,6 +35,12 @@ public class EndController : MonoBehaviour
         }
     }
 
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        _redEnter = false;
+        _blueEnter = false;
+    }
+
     private void FixedUpdate()
     {
         if (_redEnter && _blueEnter)
@@ -39,25 +48,13 @@ public class EndController : MonoBehaviour
             _bufferTime -= Time.deltaTime;
             if (_bufferTime <= 0)
             {
-                BroadcastMessage("End");
-                _bufferTimeTwo -= Time.deltaTime;
-                if (_bufferTimeTwo <= 0)
-                {
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-                }
+                endBool = true;
             }
         }
         else
         {
             _bufferTime = bufferTime;
         }
-    }
-    
-    
-
-    private void End()
-    {
-        _anim.Play("EndUI", 0, 0);
     }
 }
 

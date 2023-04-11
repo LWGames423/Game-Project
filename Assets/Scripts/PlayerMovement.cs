@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     public InputAction playerDash;
 
     public GameObject playerSpawn;
+    public GameObject playerEnd;
 
     public LayerMask groundLayer;
     public Transform groundCheck;
@@ -53,10 +54,16 @@ public class PlayerMovement : MonoBehaviour
         playerDash.Disable();
     }
 
+    private void Awake()
+    {
+        transform.position = playerSpawn.transform.position;
+    }
+    
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
-        transform.position = playerSpawn.transform.position;
+        
+        
         _facingRight = true;
         _canJump = true;
     }
@@ -74,13 +81,23 @@ public class PlayerMovement : MonoBehaviour
         {
             _moveInput = playerMovement.ReadValue<Vector2>();
             _dashInput.x = playerDash.ReadValue<float>();
-            _dashInput.y = 0f;
         }
         else
         {
+            _rb.velocity = Vector2.zero;
             _moveInput = Vector2.zero;
-            _dashInput = Vector2.zero;
         }
+
+        if (pm.isStarting)
+        {
+            transform.position = playerSpawn.transform.position;
+        }
+
+        if (pm.isEnding)
+        {
+            transform.position = playerEnd.transform.position;
+        }
+        
         
         
 
@@ -164,23 +181,23 @@ public class PlayerMovement : MonoBehaviour
         
         #region Dash
 
-        if (_dashInput.x > 0 && _canDash)
-        {
-            _canDash = false;
-            _isDashing = true;
-            _dashDir = new Vector2(_moveInput.x * pm.horMult, _moveInput.y * pm.vertMult);
-            if (_dashDir == Vector2.zero)
-            {
-                _dashDir = new Vector2(transform.localScale.x, 0);
-            }   
-            
-            StartCoroutine(StopDashing());
-        }
-        
-        if(_isDashing)
-        {
-            _rb.velocity = _dashDir * pm.dashForce;
-        }
+        // if (_dashInput.x > 0 && _canDash)
+        // {
+        //     _canDash = false;
+        //     _isDashing = true;
+        //     _dashDir = new Vector2(_moveInput.x * pm.horMult, _moveInput.y * pm.vertMult);
+        //     if (_dashDir == Vector2.zero)
+        //     {
+        //         _dashDir = new Vector2(transform.localScale.x, 0);
+        //     }   
+        //     
+        //     StartCoroutine(StopDashing());
+        // }
+        //
+        // if(_isDashing)
+        // {
+        //     _rb.velocity = _dashDir * pm.dashForce;
+        // }
         
         #endregion
         
@@ -268,8 +285,8 @@ public class PlayerMovement : MonoBehaviour
 
     public void Death()
     {
-        transform.position = playerSpawn.transform.position;
         _rb.velocity = Vector2.zero;
+        transform.position = playerSpawn.transform.position;
     }
 
     #endregion

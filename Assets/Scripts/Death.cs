@@ -8,13 +8,9 @@ public class Death : MonoBehaviour
 {
     public GameObject playerManager;
     private bool _playerDead = false;
+    public bool canDie = true;
     private void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.R))
-        {
-            Die();
-        }
-
         if (_playerDead == true)
         {
             _playerDead = false;
@@ -23,10 +19,14 @@ public class Death : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        Die();
+        if (canDie)
+        {
+            Die();    
+        }
+        
     }
 
-    public void Die()
+    private void Die()
     {
         playerManager.BroadcastMessage("Death");
         _playerDead = true;

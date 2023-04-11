@@ -52,6 +52,8 @@
      <Compile Include="Assets\Scripts\ControlController.cs" />
      <Compile Include="Assets\Scripts\mainmenu.cs" />
      <Compile Include="Assets\Scripts\Finish.cs" />
+     <Compile Include="Assets\Scripts\FadeController.cs" />
+     <Compile Include="Assets\Scripts\LevelLoader.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Scenes" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -10,6 +10,10 @@ public class PlayerManager : MonoBehaviour
 
     [Header("Movement")] 
     public bool canMove = true;
+
+    public bool isStarting;
+
+    public bool isEnding;
     
     public float moveSpeed;
     
@@ -41,16 +45,4 @@ public class PlayerManager : MonoBehaviour
     public float coyoteTime;
     
     #endregion
-
-    private Animator _anim;
-
-    private void Start()
-    {
-        _anim = GetComponent<Animator>();
-    }
-
-    private void End()
-    {
-        _anim.Play("PlayerEnd", 0, 0);
-    }
 }
