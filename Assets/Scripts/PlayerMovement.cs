@@ -31,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D _rb;
     private bool _facingRight = true;
     private bool _isGrounded;
+    
 
     private bool _canJump;
     private bool _isJumping;

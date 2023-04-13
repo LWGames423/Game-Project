@@ -9,6 +9,7 @@ public class LevelLoader : MonoBehaviour
     public EndController fin;
 
     public Animator transition;
+    public Animator audiTranstion;
 
     // Update is called once per frame
     void Update()
@@ -29,6 +30,7 @@ public class LevelLoader : MonoBehaviour
     IEnumerator LoadLevel(int levelIndex)
     {
         transition.SetTrigger("Start");
+        audiTranstion.SetTrigger("Start");
 
         yield return new WaitForSeconds(1);
         

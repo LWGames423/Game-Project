@@ -45,15 +45,15 @@
      <Compile Include="Assets\Scripts\ControlStorage.cs" />
      <Compile Include="Assets\Scripts\Death.cs" />
      <Compile Include="Assets\Scripts\PlayerManager.cs" />
+     <Compile Include="Assets\Scripts\FadeController.cs" />
      <Compile Include="Assets\Scripts\DoorManager.cs" />
+     <Compile Include="Assets\Scripts\LevelLoader.cs" />
      <Compile Include="Assets\Scripts\Interactables.cs" />
      <Compile Include="Assets\Scripts\UIControl.cs" />
      <Compile Include="Assets\Scripts\EndController.cs" />
      <Compile Include="Assets\Scripts\ControlController.cs" />
      <Compile Include="Assets\Scripts\mainmenu.cs" />
      <Compile Include="Assets\Scripts\Finish.cs" />
-     <Compile Include="Assets\Scripts\FadeController.cs" />
-     <Compile Include="Assets\Scripts\LevelLoader.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Scenes" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

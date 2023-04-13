@@ -9,26 +9,34 @@ public class Death : MonoBehaviour
     public GameObject playerManager;
     private bool _playerDead = false;
     public bool canDie = true;
+
+    private bool _inCollider = false;
+    private bool _outTrigger = true;
     private void FixedUpdate()
     {
-        if (_playerDead == true)
+        if (_inCollider && !_outTrigger && canDie)
         {
-            _playerDead = false;
+            Die();
         }
     }
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (canDie)
-        {
-            Die();    
-        }
-        
+        _inCollider = true;
+        _outTrigger = false;
+
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        _inCollider = false;
+        _outTrigger = true;
     }
 
     private void Die()
     {
         playerManager.BroadcastMessage("Death");
-        _playerDead = true;
+        _inCollider = false;
+        _outTrigger = true;
     }
 }

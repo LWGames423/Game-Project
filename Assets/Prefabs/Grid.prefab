@@ -35581,7 +35581,7 @@ GameObject:
   - component: {fileID: 1544742097164315666}
   - component: {fileID: 1544742097164315665}
   - component: {fileID: 1544742097164315664}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Hurt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35772,6 +35772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerManager: {fileID: 0}
+  canDie: 1
 --- !u!19719996 &1544742097164315664
 TilemapCollider2D:
   m_ObjectHideFlags: 0
