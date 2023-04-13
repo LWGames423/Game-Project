@@ -14,7 +14,7 @@ public class Death : MonoBehaviour
     private bool _outTrigger = true;
     private void FixedUpdate()
     {
-        if (_inCollider && !_outTrigger && canDie)
+        if (_inCollider && canDie)
         {
             Die();
         }
@@ -23,20 +23,17 @@ public class Death : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D col)
     {
         _inCollider = true;
-        _outTrigger = false;
 
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit2D(Collider2D col)
     {
         _inCollider = false;
-        _outTrigger = true;
     }
 
     private void Die()
     {
         playerManager.BroadcastMessage("Death");
         _inCollider = false;
-        _outTrigger = true;
     }
 }

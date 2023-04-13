@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1a05d55-c6b3-40bf-9c9d-58e76416eb99" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.platformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Grid.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Grid.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelThree.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelThree.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Death.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Death.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +120,7 @@
       <workItem from="1680824490119" duration="2530000" />
       <workItem from="1681085923501" duration="4816000" />
       <workItem from="1681169176593" duration="10049000" />
-      <workItem from="1681340349313" duration="2461000" />
+      <workItem from="1681340349313" duration="2615000" />
     </task>
     <servers />
   </component>

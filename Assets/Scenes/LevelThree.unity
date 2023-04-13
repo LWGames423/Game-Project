@@ -13774,6 +13774,10 @@ PrefabInstance:
       propertyPath: m_Tiles.Array.data[133].second.m_TileObjectToInstantiateIndex
       value: 65535
       objectReference: {fileID: 0}
+    - target: {fileID: 1544742097777496083, guid: 92953fb452eb469458b4b57da9d7008f, type: 3}
+      propertyPath: m_UsedByComposite
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1544742097777496094, guid: 92953fb452eb469458b4b57da9d7008f, type: 3}
       propertyPath: m_Size.y
       value: 17
@@ -14327,6 +14331,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1544742097777496081, guid: 92953fb452eb469458b4b57da9d7008f, type: 3}
   m_PrefabInstance: {fileID: 237576110}
   m_PrefabAsset: {fileID: 0}
+--- !u!19719996 &999863732 stripped
+TilemapCollider2D:
+  m_CorrespondingSourceObject: {fileID: 1544742097777496083, guid: 92953fb452eb469458b4b57da9d7008f, type: 3}
+  m_PrefabInstance: {fileID: 237576110}
+  m_PrefabAsset: {fileID: 0}
 --- !u!66 &999863736
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -14338,15 +14347,29 @@ CompositeCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths: []
+  m_ColliderPaths:
+  - m_Collider: {fileID: 999863732}
+    m_ColliderPaths:
+    - - X: -20000000
+        Y: -170000000
+      - X: 30000000
+        Y: -170000000
+      - X: 30000000
+        Y: -160000000
+      - X: -20000000
+        Y: -160000000
   m_CompositePaths:
-    m_Paths: []
+    m_Paths:
+    - - {x: 2.999971, y: -17}
+      - {x: 2.999971, y: -16}
+      - {x: -2, y: -16.000029}
+      - {x: -1.9999708, y: -17}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
 --- !u!50 &999863737
